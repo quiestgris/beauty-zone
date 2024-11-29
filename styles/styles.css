@@ -88,6 +88,7 @@ ul {
     font-family: "Play", sans-serif;
     font-weight: 700;
     line-height: 0.8;
+    
 }
 .hero-title-description {
     line-height: 1.1;
@@ -180,4 +181,5 @@ footer {
 .copyright-link {
     font-size: 13px;
     line-height: 1.1;
+    color: var(--secondary-second-stage-gray-color)
 }
