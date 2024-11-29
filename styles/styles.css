@@ -1,0 +1,183 @@
+@font-face {
+    font-family: "Play";
+    src: url(../fonts/Play-Regular.woff2) format('woff2');
+    font-display: swap;
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Play";
+    src: url(../fonts/Play-Bold.woff2) format('woff2');
+    font-style: normal;
+    font-display: swap;
+    font-weight: 700;
+}
+@font-face {
+  font-display: swap; 
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/roboto-v32-latin-regular.woff2') format('woff2');
+}
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/roboto-v32-latin-500.woff2') format('woff2');
+}
+:root {
+    --primary-light-color: #2B7FFF;
+    --primary-dark-color: #011C44;
+    --primary-white-color: #ffffff;
+    --secondary-first-stage-gray-color: #4A4A4A;
+    --secondary-second-stage-gray-color: #747272;
+    --secondary-dark-color: #011F4A;
+    --dark-color: #000000;
+}
+body {
+    color: var(--primary-dark-color);
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+h1 {
+    font-size: 140px;
+    font-family: "Play", sans-serif;
+    font-weight: 700;
+}
+h2 {
+    font-size: 64px;
+    font-family: "Play", sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+}
+/* header */
+header {
+    line-height: 1.1;
+}
+.logo {
+    line-height: 1.04;
+}
+.nav-item {
+    font-weight: 700;
+    line-height: 1.1;
+}
+.logo {
+    font-size: 22px;
+    font-family: "Play", sans-serif;
+    color: var(--primary-light-color);
+    font-weight: 700;
+    text-transform: capitalize;
+}
+ul {
+    list-style-type: none;
+}
+.link {
+    text-decoration: none;
+    color: var(--primary-dark-color);
+}
+.link:hover {
+    color: var(--primary-light-color);
+}
+/* Im a hero because im here */
+.hero-title {
+    color: var(--primary-light-color);
+    font-family: "Play", sans-serif;
+    font-weight: 700;
+    line-height: 0.8;
+}
+.hero-title-description {
+    line-height: 1.1;
+}
+.button {
+    background-color: var(--primary-light-color);
+    border: 2px solid var(--primary-light-color);
+    color: var(--primary-white-color);
+    border-radius: 32px;
+    font-weight: 600;
+    line-height: 1.1;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+}
+.button:hover {
+    background-color: transparent;
+    color: var(--primary-dark-color);
+}
+/* Company Description */
+.button-description {
+    font-size: 12px;
+    color: var(--secondary-first-stage-gray-color);
+    line-height: 1.5;
+}
+.description-item {
+    font-size: 22px;
+    line-height: 1.7;
+}
+.bold-accent {
+    font-family: "Play", sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.accent-color.capitalize {
+    text-transform: capitalize;
+}
+.accent-color {
+    color: var(--primary-light-color);
+}
+/* Advantages */
+.advantages-item {
+    color: var(--dark-color);
+}
+.advantage-description {
+    line-height: 1.3;
+}
+/* procedures */
+.procedure-item-description {
+    color: var(--primary-white-color);
+    font-size: 22px;
+    line-height: 1.2;
+}
+/* Contacts */
+.gmap {
+    display: block;
+}
+/* Footer */
+footer {
+    font-size: 16px;
+    line-height: 1.1;
+}
+.logo.footer {
+    font-family: "Play";
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.link.footer {
+    color: var(--primary-white-color);
+
+}
+.link.footer:hover {
+    color: var(--primary-light-color);
+}
+.address-link {
+    font-size: 16px;
+    text-decoration: none;
+    color: var(--primary-white-color)
+}
+.address-link:hover {
+    color: var(--primary-light-color);
+}
+.policy-text {
+    text-decoration: none;
+    color: var(--primary-white-color);
+}
+.policy-text:hover {
+    color: var(--primary-light-color);
+}
+.copyright-link {
+    font-size: 13px;
+    line-height: 1.1;
+}
